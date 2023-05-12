@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>editar autor</title>
+
+    <!-- Agregamos los archivos de estilo de Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" integrity="sha512-cdjhD3gUas1AlrCr/Kvq9JwZkQHBD48Qhza+mKpKJS8L9hM+R2ZxZ/vhtRdyjIHnEiKyhW3YMLiMoyu2qR4Pbw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+ <h1>editar autor</h1>   
+<form name="formulario" method="post" action="agregar_autor.php">
+
+    <table>
+        <tbody>
+        <tr>
+            <td>nombre :</td>
+            <td>
+                <input type="text" name="nombres" maxlength="60" required>
+            </td>
+        </tr>
+        <tr>
+            <td>apellido paterno</td>
+            <td>
+                <input type="text" name="ape_paterno" maxlength="40" required>
+            </td>
+        </tr>
+        <tr>
+            <td>apellido materno</td>
+            <td>
+                <input type="text" name="ape_materno" maxlength="40">
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <button type="submit" action="autor.php">Guardar</button>
+            </td>
+        </tr>
+    </tbody>
+    </table>
+    </form>
+
+    <!-- Agregamos los archivos de scripts de Bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/js/bootstrap.min.js" integrity="sha512-B1H7QbX+YB8xWha+yS2iWmxu9HjZ/Xm50Q2JmJ8OBc+M9FOn0/5OoJNS/CV7m/Cydlkj5aV8O6tPu/Kjcuyqw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
